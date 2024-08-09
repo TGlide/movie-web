@@ -9,7 +9,9 @@ node_modules
 /coverage
 
 # production
-/build
+/dist
+dev-dist
+/stats.html
 
 # misc
 .DS_Store
@@ -19,5 +21,10 @@ node_modules
 .env.production.local
 
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+
+# other package managers
+yarn.lock
+package-lock.json
+
+# config
+.env
